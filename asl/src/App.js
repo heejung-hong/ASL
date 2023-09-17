@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
@@ -11,7 +10,6 @@ function App() {
       <Route path='/'element={<Homepage/>}/>
       <Route path='/GameSelect' element={<GameSelect/>}/>
     </Routes>
-
     </div>
   );
 }
