@@ -1,58 +1,55 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  background: rgb(233, 226, 254);
-}
 
-body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 
 .sectionBtn {
-  height: 15vh;
+  height: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .practiceBtn {
-  background-color: rgb(179, 159, 240);
-  border: rgb(179, 159, 240);
-  border-radius: 7px;
-  height: 38px;
-  width: 304px;
+  background-color: #6335E5;
+  border: #6335E5;
+  border-radius: 10px;
+  height: 80px;
+  width: 604px;
   text-align: left;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.practiceText {
+  padding: 20px 55px 20px 57px;
 }
 
 .timedBtn {
   background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(179, 159, 240);
-  padding: 5px 30px 5px 30px;
+  border: 1px solid #6335E5;
+  padding: 17px 60px 17px 60px;
+  color: black;
 }
 
 .startBtn {
-  background-color: rgb(86, 55, 220);
-  border: rgb(86, 55, 220);
+  background-color: #6335E5;
+  border: #6335E5;
   color: rgb(255, 255, 255);
   border-radius: 70%;
-  height: 50px;
-  width: 105px;
+  height: 90px;
+  width: 180px;
+  font-size: 30px;
 }
 
-.memory-game {
+.memoryGame {
   height: 85vh;
   display: flex;  
   flex-wrap: wrap;
   perspective: 1000px;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
 }
 
-.memory-card {
+.memoryCard {
   height: 20vmin;
   width: 30vmin;
   margin: 10px;
@@ -64,17 +61,16 @@ body {
 }
 
 /* when element gets clicked */
-.memory-card:active {
+.memoryCard:active {
   transform: scale(0.97);
   transition: transform .2s;
 }
 
-.memory-card.flip {
+.memoryCard.flip {
   transform: rotateY(180deg);
 }
 
-.front-face,
-.back-face {
+.frontface, .backface {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -83,6 +79,7 @@ body {
   backface-visibility: hidden;
 }
 
-.front-face {
+.frontface {
+  
   transform: rotateY(180deg);
 }

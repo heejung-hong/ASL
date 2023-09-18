@@ -1,4 +1,16 @@
-import './Game.css'
+import Card from '../CSS/Game.module.css';
+import aHand from './images/A-Hand.png';
+import aLetter from './images/A-Letter.png';
+import bHand from './images/B-Hand.png';
+import bLetter from './images/B-Letter.png';
+import cHand from './images/C-Hand.png';
+import cLetter from './images/C-Letter.png';
+import dHand from './images/D-Hand.png';
+import dLetter from './images/D-Letter.png';
+import eHand from './images/E-Hand.png';
+import eLetter from './images/E-Letter.png';
+import gHand from './images/G-Hand.png';
+import gLetter from './images/G-Letter.png';
 
 export default function Game(){
   // https://marina-ferreira.github.io/projects/js/memory-game/
@@ -63,67 +75,65 @@ export default function Game(){
 
   return(
       <div>
-        <section class="sectionBtn">
-          <button class="practiceBtn">Practice Mode</button>
-          <button class="timedBtn">Timed Mode</button>
-          <button class="startBtn">START</button>
+        <section className={Card.sectionBtn}>
+          <button className={Card.practiceBtn}><span className={Card.practiceText}>Practice Mode</span><span className={Card.timedBtn}>Timed Mode</span></button>
+          <button className={Card.startBtn}>EXIT</button>
         </section>
-        <section class="memory-game">
-          <div class="memory-card" data-framework="signA">
-            <img class="front-face" src="apple.png" alt="signA" />
-            <div class="back-face"></div>
+        <section className={Card.memoryGame}>
+          <div className={Card.memoryCard} data-framework="signA">
+            <img className={Card.frontface} src={aHand} alt="signA" />
+            <div className={Card.backface}></div>
           </div>
-          <div class="memory-card" data-framework="signA">
-            <img class="front-face" src="apple.png" alt="signA" />
-            <div class="back-face"></div>
-          </div>
-
-          <div class="memory-card" data-framework="signB">
-            <img class="front-face" src="bee.png" alt="signB" />
-            <div class="back-face"></div>
-          </div>
-          <div class="memory-card" data-framework="signB">
-            <img class="front-face" src="bee.png" alt="signB" />
-            <div class="back-face"></div>
+          <div className={Card.memoryCard} data-framework="signA">
+            <img className={Card.frontface} src={aLetter} alt="signA" />
+            <div className={Card.backface}></div>
           </div>
 
-          <div class="memory-card" data-framework="signC">
-            <img class="front-face" src="flower.png" alt="signC" />
-            <div class="back-face"></div>
+          <div className={Card.memoryCard} data-framework="signB">
+            <img className={Card.frontface} src={bHand} alt="signB" />
+            <div className={Card.backface}></div>
           </div>
-          <div class="memory-card" data-framework="signC">
-            <img class="front-face" src="flower.png" alt="signC" />
-            <div class="back-face"></div>
-          </div>
-
-          <div class="memory-card" data-framework="signD">
-            <img class="front-face" src="home.png" alt="signD" />
-            <div class="back-face"></div>
-          </div>
-          <div class="memory-card" data-framework="signD">
-            <img class="front-face" src="home.png" alt="signD" />
-            <div class="back-face"></div>
+          <div className={Card.memoryCard} data-framework="signB">
+            <img className={Card.frontface} src={bLetter} alt="signB" />
+            <div className={Card.backface}></div>
           </div>
 
-          <div class="memory-card" data-framework="signE">
-            <img class="front-face" src="mail.png" alt="signE" />
-            <div class="back-face"></div>
+          <div className={Card.memoryCard} data-framework="signC">
+            <img className={Card.frontface} src={cHand} alt="signC" />
+            <div className={Card.backface}></div>
           </div>
-          <div class="memory-card" data-framework="signE">
-            <img class="front-face" src="mail.png" alt="signE" />
-            <div class="back-face"></div>
+          <div className={Card.memoryCard} data-framework="signC">
+            <img className={Card.frontface} src={cLetter} alt="signC" />
+            <div className={Card.backface}></div>
           </div>
 
-          <div class="memory-card" data-framework="signG">
-            <img class="front-face" src="paper.png" alt="signG" />
-            <div class="back-face"></div>
+          <div className={Card.memoryCard} data-framework="signD">
+            <img className={Card.frontface} src={dHand} alt="signD" />
+            <div className={Card.backface}></div>
           </div>
-          <div class="memory-card" data-framework="signG">
-            <img class="front-face" src="paper.png" alt="signG" />
-            <div class="back-face"></div>
+          <div className={Card.memoryCard} data-framework="signD">
+            <img className={Card.frontface} src={dLetter} alt="signD" />
+            <div className={Card.backface}></div>
+          </div>
+
+          <div className={Card.memoryCard} data-framework="signE">
+            <img className={Card.frontface} src={eHand} alt="signE" />
+            <div className={Card.backface}></div>
+          </div>
+          <div className={Card.memoryCard} data-framework="signE">
+            <img className={Card.frontface} src={eLetter} alt="signE" />
+            <div className={Card.backface}></div>
+          </div>
+
+          <div className={Card.memoryCard} data-framework="signG">
+            <img className={Card.frontface} src={gHand} alt="signG" />
+            <div className={Card.backface}></div>
+          </div>
+          <div className={Card.memoryCard} data-framework="signG">
+            <img className={Card.frontface} src={gLetter} alt="signG" />
+            <div className={Card.backface}></div>
           </div>
         </section>
-
       </div>
   )
 }

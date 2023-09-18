@@ -27,7 +27,6 @@ export default function GameScreen(){
 
     return(
         <div>
-            <p>Game Goes Here</p>
             <button onClick={toggleModal}>Open Modal</button>
             <ReactModal
             className={Styles.modal}
