@@ -2,6 +2,8 @@ import ReactModal from 'react-modal';
 import { useState, useEffects } from 'react';
 import Styles from '../CSS/modal.module.css'
 import {NavLink} from 'react-router-dom'
+import Game from "../components/Game"
+
 
 export default function GameScreen(){
 
@@ -43,7 +45,9 @@ export default function GameScreen(){
                     </NavLink>
                 </div>
             </ReactModal>
-            
+
+          // <Game/> 
+
         </div>
     )
 
