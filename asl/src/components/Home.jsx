@@ -1,9 +1,13 @@
 export default function Home(){
     return(
         <div>
-            <h1>Website Name</h1>
+            <div>
+                <h1 className="title">Website Name</h1>
 
-            <h2>Welcome!</h2>
+                <h2 className="welcome">Welcome!</h2>
+                <p>Info about website</p>
+            </div>
+
         </div>
     )
 }
