@@ -13,6 +13,22 @@
   pointer-events: none;
 }
 
+
+.welcome {
+  margin-bottom: 10px;
+  font-size: 4vh;
+}
+.title-image { 
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 80%;
+}
+
+.site-info {
+  font-weight: bold;
+}
+
 .homepage-container {
   height: 100vh;
   width: 100vw;
@@ -59,24 +75,72 @@
 
 .game-screen-title {
   color: #582EC9;
+  margin: 30px;
+  font-size: 5vh;
   padding: 0;
 }
 
 .game-screen-options-container {
   background-color: #BCA7F5;
   width: 40%;
-  padding: 10%;
+  /* padding: 10%; */
 }
 
-/* .game-screen-list-container {
-} */
+.player-select {
+ display: flex;
+ background-color: #BCA7F5;
+ justify-content: space-evenly;
+ margin: 10px 0 10px 0;
+}
+
+.radio-container {
+  margin: 30px 0;
+}
+.radio-input-word {
+  margin: 0 15px 0 5px;
+}
+.player {
+  background-color: #6335E5;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.player-select-span-left {
+  background-color: #BCA7F5;
+  margin-left: 10px;
+  font-size: 3vh;
+} 
+.player-select-span-right {
+  background-color: #BCA7F5;
+  margin-right: 10px;
+  font-size: 3vh;
+} 
+
+.background-color {
+  background-color: #BCA7F5;
+}
+
+.game-screen-list-container {
+  background-color: #BCA7F5;
+}
+
+.input-style {
+  margin: 0 5px 0 20px;
+}
 
 .list-difficulty {
+  background-color: #BCA7F5;
   list-style-type: none;
-  padding: 0;
+  padding: 20px;
+}
+
+.radio-button {
+  accent-color: #6335E5;
 }
 
 .list-item-difficulty {
+  background-color: #BCA7F5;
   display: inline;
   font-size: 16px;
   font-weight: bold;
@@ -84,7 +148,8 @@
 
 .game-screen-button {
   background-color: #6335E5;
-  padding: 12px;
+  padding: 7px 25px;
+  margin: 0 0 15px 0;
   border-radius: 8px;
   width:fit-content;
   color: white;
