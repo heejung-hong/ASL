@@ -1,35 +1,68 @@
 .modal{
     background-color: #582EC9;
-    height: 500px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-    
+    width: 1016px;
+    height: 838px;
+    margin: auto;
 }
 
 .modalText{
-    color: white;
-    font-size: 50px;
-    margin: auto 0;
-    margin-left: 500px;
-    margin-right: 500px;
+    color: #FFF;
     text-align: center;
+    background-color: #582EC9;
+    margin-bottom: 80px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.first,.second{
-    margin-left: 600px;
-    padding-top: 5px;
+
+.confetti{
+    
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    display: block;
+    background-color: #582EC9;
 }
 
-
-.playAgn{
+.playAgn,.backHome{
+    text-decoration: none;
     background-color: #ECE5FF;
     color: #582EC9;
+    display: flex;
+    width: 312px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: 700;
 }
-.backHome{
+/* .playAgn a:visited,.backHome a:visited{
+    text-decoration: none;
+} */
+/* .backHome{
+    text-decoration: none;
     background-color: #ECE5FF;
     color: #582EC9;
-}
+    display: flex;
+    width: 312px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: 700;
+} */
 
 .profile{
     background-color: #D9D9D9;
