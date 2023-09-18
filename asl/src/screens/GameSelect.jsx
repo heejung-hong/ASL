@@ -23,7 +23,9 @@ export default function GameSelect(){
                     </ul>
                 </div>
                     <div>
-                        <button className="game-screen-button">Next</button>
+                        <NavLink to="/GameScreen">
+                           <button className="game-screen-button">Next</button> 
+                        </NavLink>
                     </div>
                 </div>
             </div>

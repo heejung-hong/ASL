@@ -46,7 +46,7 @@ export default function GameScreen(){
                 </div>
             </ReactModal>
 
-          // <Game/> 
+           <Game/> 
 
         </div>
     )
