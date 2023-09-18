@@ -1,3 +1,5 @@
+import './Game.css'
+
 export default function Game(){
   // https://marina-ferreira.github.io/projects/js/memory-game/
   const cards = document.querySelectorAll('.memory-card');
