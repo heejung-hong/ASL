@@ -1,3 +1,4 @@
+import {NavLink} from 'react-router-dom'
 export default function GameSelect(){
     return(
         <div>
@@ -9,7 +10,11 @@ export default function GameSelect(){
             <label for="medium">Medium</label>
             <input type="radio" id="hard" value='hard'></input>
             <label for="hard">Hard</label>
-            <button>Next</button>
+            <NavLink to='/GameScreen'> 
+                <button>Next</button>
+            </NavLink>
+           
+           
             </div>
         </div>
     )
