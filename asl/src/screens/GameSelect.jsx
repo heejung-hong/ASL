@@ -34,7 +34,7 @@ export default function GameSelect(){
 
     const RadioInput = ({label, value, checked, setter}) => {
         return (
-          <label className="background-color">
+          <label className="background-color radio-cursor">
             <input className="radio-button" type="radio" checked={checked === value}
                    onChange={() => setter(value)} />
             <span className="radio-input-word background-color" >{label}</span>

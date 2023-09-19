@@ -38,6 +38,16 @@
   flex-direction: column;
 }
 
+.learningpage-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 .game-select {
   height: 100vh;
   width: 100vw;
@@ -110,11 +120,13 @@
   background-color: #BCA7F5;
   margin-left: 10px;
   font-size: 3vh;
+  cursor: pointer;
 } 
 .player-select-span-right {
   background-color: #BCA7F5;
   margin-right: 10px;
   font-size: 3vh;
+  cursor: pointer;
 } 
 
 .background-color {
@@ -137,6 +149,7 @@
 
 .radio-button {
   accent-color: #6335E5;
+  cursor: pointer;
 }
 
 .list-item-difficulty {
