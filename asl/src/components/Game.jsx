@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import Card from '../CSS/Game.module.css';
 import aHand from './images/A-Hand.png';
 import aLetter from './images/A-Letter.png';
@@ -13,6 +14,13 @@ import gHand from './images/G-Hand.png';
 import gLetter from './images/G-Letter.png';
 
 export default function Game(){
+
+
+  const navigate = useNavigate()
+  const navigateHome = () => {
+    navigate('/')
+}
+
   // https://marina-ferreira.github.io/projects/js/memory-game/
   const cards = document.querySelectorAll('.memory-card');
 
@@ -77,7 +85,7 @@ export default function Game(){
       <div>
         <section className={Card.sectionBtn}>
           <button className={Card.practiceBtn}><span className={Card.practiceText}>Practice Mode</span><span className={Card.timedBtn}>Timed Mode</span></button>
-          <button className={Card.startBtn}>EXIT</button>
+          <button className={Card.startBtn} onClick={navigateHome}>EXIT</button>
         </section>
         <section className={Card.memoryGame}>
           <div className={Card.memoryCard} data-framework="signA">
