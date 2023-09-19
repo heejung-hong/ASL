@@ -7,7 +7,6 @@ export default function LearningScreen()  {
         navigate('/')
     }
 
-
     return(
         <div className="learningpage-container">
             <div>

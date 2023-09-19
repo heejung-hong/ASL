@@ -5,7 +5,6 @@ export default function Homepage(){
         <div className="homepage-container">
             <Home></Home>
             <NavBar></NavBar>
-
         </div>
     )
 }
