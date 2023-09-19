@@ -22,7 +22,7 @@ export default function Game(){
 
   // loop through card and when clicked, flipCard function called
   cards.forEach(card => card.addEventListener('click', flipCard));
-
+ 
   function flipCard() {
     // console.log(flipCard)
     if (lockBoard) return;
