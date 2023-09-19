@@ -1,4 +1,4 @@
-.modal{
+/* .modal{
     background-color: #582EC9;
     width: 1016px;
     height: 838px;
@@ -64,11 +64,65 @@
     font-weight: 700;
 } */
 
-.profile{
+/* .profile{
     background-color: #D9D9D9;
     height: 250px;
     width: 250px;
     border-radius: 250px;
     margin-left: 500px;
     margin-right: 500px;
+}  */
+
+.modal{
+    background-color: #582EC9;
+    max-width: 80%; /* Adjust the maximum width as per your design */
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.modalText{
+    color: #FFF;
+    text-align: center;
+    background-color: #582EC9;
+    margin-bottom: 5%; /* Adjust the margin as per your design */
+    font-size: 3vw; /* Adjust font size using viewport width units */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.confetti{
+    margin: auto;
+    padding-top: 5%; /* Adjust padding as per your design */
+    margin-bottom: 3%; /* Adjust margin as per your design */
+    display: block;
+    background-color: #582EC9;
+}
+
+.playAgn,.backHome{
+    text-decoration: none;
+    background-color: #ECE5FF;
+    color: #582EC9;
+    display: flex;
+    max-width: 80%; /* Adjust the maximum width as per your design */
+    width: auto;
+    padding: 2%; /* Adjust padding as per your design */
+    margin: auto;
+    margin-top: 3%; /* Adjust margin as per your design */
+    margin-bottom: 3%; /* Adjust margin as per your design */
+    justify-content: center;
+    align-items: center;
+    gap: 2%; /* Adjust gap as per your design */
+    border-radius: 10px;
+    font-size: 3vw; /* Adjust font size using viewport width units */
+    font-weight: 700;
+}
+
+.profile{
+    background-color: #D9D9D9;
+    height: 40vw; /* Adjust height using viewport width units */
+    width: 40vw; /* Adjust width using viewport width units */
+    border-radius: 50%; /* Make it a circle */
+    margin: 0 auto; /* Center it */
 }
