@@ -5,7 +5,7 @@ export default function NavBar(){
         <NavLink to='/GameSelect'>
             <button className="homepage-button">Game Mode</button>
         </NavLink>
-        <NavLink to='/GameSelect'>
+        <NavLink to='/LearningScreen'>
             <button className="homepage-button">Learning Mode</button>
         </NavLink>
     </div>
